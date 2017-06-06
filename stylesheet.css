@@ -1,0 +1,450 @@
+/*Universal Styles*/
+html, body {
+    margin: 0px; padding: 0px;
+    font-family: "lato";
+    font-weight: 300;
+    height: 100%;
+    background-color: #ffffff;
+}
+.body_splash {
+    height: auto;
+    text-align: center;
+}
+b {
+    font-weight: 400;
+}
+a {
+    color: #000000;
+}
+p {
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+.line {
+    border-bottom: 1px solid;
+    width: 220px;
+    margin: 20px auto 0px auto;
+    display: block
+}
+#line_light {
+    border-bottom: 1px solid #bfbfbf;
+}
+
+/*Splash Page Styles*/
+.logo {
+    text-align: center;
+    margin-top: 20vh;
+}
+.logo_svg {
+    width: 50vw;
+    height: 50vh;
+}
+.BG_Circle, .SH {
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 7px;
+}
+.NavButton_Splash{
+    text-align: center;
+    display: inline-block;
+    background-color: #e6e6e6;
+    font-weight: 300;
+    margin: 2px;
+    width: auto;
+    margin-top: 2vh;
+    padding: 2vw;
+
+}
+.NavButton_Splash:hover{
+    background-color: #ff6666;
+    color: white;
+}
+.NavButton_Splash:hover #SplashText {
+    color: #ff6666;
+    transition: 0.8s;
+}
+
+.SH {
+    fill: none;
+}
+
+/*Header Styles*/
+.Header{
+    padding: 10px 10px 0px 10px;
+}
+.Title {
+    max-width: 50vw;
+    margin: 5px auto 5px auto;
+    padding: 10px 0px 0px 0px;
+    font-size: 4em;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+.Subtitle {
+    font-size: 1em;
+    max-width: 50vw;
+    margin: 20px auto;
+    text-align: center;
+}
+.NavBar {
+    width: 60vw;
+    margin: 5px auto;
+    padding: 0px;
+    text-align: center;
+}
+.NavButton {
+    text-align: center;
+    display: inline-block;
+    width: 10vw;
+    min-width: 120px;
+    padding: 5px;
+    background-color: #e6e6e6;
+    font-weight: 300;
+    margin: 2px;
+    transition: 0.1s;
+}
+.NavButton:hover {
+    background-color: #ff6666;
+    width: 11vw;
+    cursor: pointer;
+    color: white;
+    transition: 0.1s;
+}
+#NavButton_Current {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 2px #e6e6e6 inset;
+}
+#NavButton_Current:hover {
+    background-color: #ff6666;
+    box-shadow: none;
+}
+
+/*Footer Styles*/
+.Wrap {
+    min-height: 100%;
+    margin-bottom: -120px;
+}
+.Wrap:after {
+    content: "";
+    display: block;
+}
+.Footer, .Wrap:after {
+    height: 120px;
+}
+
+/*Project Page Styles*/
+.BubbleBar {
+    text-align: center;
+    height: 30px;
+}
+.PageBubble {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #e6e6e6;
+    margin: 10px 0px;
+}
+.PageBubble:hover {
+    background-color: #ff6666;
+    cursor: pointer;
+}
+#PageBubble_Current {
+    background-color: #ff6666;
+}
+.BubbleArrow {
+    position: fixed;
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: 300;
+    font-size: 36;
+    text-align: center;
+}
+.BubbleArrow:hover {
+    background-color: #ff6666;
+    color: white;
+    cursor: pointer;
+}
+#left {
+    top: 50vh;
+    left: 10vw;
+}
+#right {
+    top: 50vh;
+    right: 10vw;
+}
+.ProjectCover {
+    height: 140px;
+    width: 800px;
+    margin: 15px auto 0px;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.ProjectButton {
+    display: inline-block;
+    margin: 46px auto;
+    padding: 13px 0px;
+    width: 330px;
+    background: #ffffff;
+    transition: 0.2s;
+}
+.ProjectButton:hover {
+    background-color: #ff6666;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+}
+@media only screen and (max-width: 1100px){
+    .NavBar {
+        width: auto;
+    }
+    .NavButton {
+        width: 600px;
+        height: auto;
+        margin: 5px auto;
+        padding: 8px 0px;
+        font-size: 1.5em;
+    }
+    .NavButton:hover {
+        width: 600px;
+    }
+    #left {
+        left: 3vw;
+    }
+    #right {
+        right: 3vw;
+    }
+    .ProjectCover{
+        width: 800px;
+        height: 294px;
+    }
+    .ProjectButton {
+        margin: 127px auto;
+        padding: 9px 0px;
+        width: 603px;
+        height: auto;
+        font-size: 30px;
+    }
+    .PageBubble {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media only screen and (max-width: 850px){
+    .NavButton {
+        width: 80vw;
+        max-width: 480px;
+    }
+    .NavButton:hover {
+        width: 80vw;
+        max-width: 480px;
+    }
+    .ProjectCover{
+        width: 480px;
+        height: 194px;
+    }
+    .ProjectButton {
+        margin: 39px auto;
+        padding: 20px;
+        width: 358px;
+        height: 76px;
+    }
+}
+
+/*Specific Project Covers*/
+#lovingArms {
+    background-image: url(circleGrid.svg), url(projects/lovingArms/coverimg.png);
+}
+#lovingArms:hover {
+    background-image: url(projects/lovingArms/coverimg.png);
+}
+#eightbytens {
+    background-image: url(circleGrid.svg), url(projects/eightByTens/coverimg.png);
+}
+#eightbytens:hover {
+    background-image: url(projects/eightByTens/coverimg.png);
+}
+#breakingDown {
+    background-image: url(circleGrid.svg), url(projects/breakingDown/coverimg.png);
+}
+#breakingDown:hover {
+    background-image: url(projects/breakingDown/coverimg.png);
+}
+#materialStudies {
+    background-image: url(circleGrid.svg), url(projects/materialStudies/coverimg.png);
+}
+#materialStudies:hover {
+    background-image: url(projects/materialStudies/coverimg.png);
+}
+#overRefugee {
+    background-image: url(circleGrid.svg), url(projects/overRefugee/coverimg.png);
+}
+#overRefugee:hover {
+    background-image: url(projects/overRefugee/coverimg.png);
+}
+#inscape {
+    background-image: url(circleGrid.svg), url(projects/inscape/coverimg.png);
+}
+#inscape:hover {
+    background-image: url(projects/inscape/coverimg.png);
+}
+#thanksJackie {
+    background-image: url(circleGrid.svg), url(projects/thanksJackie/coverimg.png);
+}
+#thanksJackie:hover {
+    background-image: url(projects/thanksJackie/coverimg.png);
+}
+#vortex {
+    background-image: url(circleGrid.svg), url(projects/vortex/coverimg.png);
+}
+#vortex:hover {
+    background-image: url(projects/vortex/coverimg.png);
+}
+#eyesAbove {
+    background-image: url(circleGrid.svg), url(projects/eyesAbove/coverimg.png);
+}
+#eyesAbove:hover {
+    background-image: url(projects/eyesAbove/coverimg.png);
+}
+#projectED {
+    background-image: url(circleGrid.svg), url(projects/projectED/coverimg.png);
+}
+#projectED:hover {
+    background-image: url(projects/projectED/coverimg.png);
+}
+#motherMoon {
+    background-image: url(circleGrid.svg), url(projects/mothermoon/coverimg.png);
+}
+#motherMoon:hover {
+    background-image: url(projects/mothermoon/coverimg.png);
+}
+#hotSauce {
+    background-image: url(circleGrid.svg), url(projects/hotsauce/coverimg.png);
+}
+#hotSauce:hover {
+    background-image: url(projects/hotsauce/coverimg.png);
+}
+#justYouWait {
+    background-image: url(circleGrid.svg), url(projects/justyouwait/coverimg.png);
+}
+#justYouWait:hover {
+    background-image: url(projects/justyouwait/coverimg.png);
+}
+#charlottesville {
+    background-image: url(circleGrid.svg), url(projects/charlottesville/coverimg.png);
+}
+#charlottesville:hover {
+    background-image: url(projects/charlottesville/coverimg.png);
+}
+#edovoConnect {
+    background-image: url(circleGrid.svg), url(projects/edovo/coverimg.png);
+}
+#edovoConnect:hover {
+    background-image: url(projects/edovo/coverimg.png);
+}
+#lowPoly {
+    background-image: url(circleGrid.svg), url(projects/lowPoly/coverimg.png);
+}
+#lowPoly:hover {
+    background-image: url(projects/lowPoly/coverimg.png);
+}
+#digitalArtist {
+    background-image: url(circleGrid.svg), url(projects/digitalartist/coverimg.png);
+}
+#digitalArtist:hover {
+    background-image: url(projects/digitalartist/coverimg.png);
+}
+#growingPieces {
+    background-image: url(circleGrid.svg), url(projects/growing/coverimg.png);
+}
+#growingPieces:hover {
+    background-image: url(projects/growing/coverimg.png);
+}
+
+/*Reel Styles*/
+.reel {
+    width: 80vw;
+    height: 60vh;
+    display: block;
+    margin: 20px auto;
+}
+.reeltext {
+    display: block;
+    margin: auto;
+    max-width: 80vw;
+    text-align: center;
+}
+@media only screen and (max-width: 1100px){
+    .reel {
+        width: 100vw;
+        height: 56.25vw;
+    }
+}
+
+/*Story Styles*/
+.story {
+    width: 80vw;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+}
+.story p {
+    text-align: justify;
+}
+
+/*Project Styles*/
+.projectcontainer {
+    text-align: center;
+}
+.projectimage {
+    display: inline-block;
+    text-align: center;
+    max-width: 800px;
+    width: auto;
+    height: auto;
+    margin: 20px auto 0px;
+}
+#projectimage_first {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.projectimage:hover {
+    cursor: zoom-in;
+}
+.projectembed {
+    width: 100vw;
+    height: 56.25vw;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+.projectembed_wide {
+    width: 100vw;
+    height: 42.92vw;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+.projecttext {
+    width: 70vw;
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
+    text-align: justify;
+}
+@media only screen and (max-width: 1100px){
+    .projectimage {
+        max-width: 80vw;
+        max-height: 80vh;
+    }
+}
+
+/*404 Page*/
+.error {
+    max-width: 50vw;
+    max-height: 50vh;
+}
