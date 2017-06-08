@@ -61,7 +61,7 @@
 #motherMoon {
     background-image: url(mothermoon/coverimg.png);
     background-size: cover;
-    background-position: center;
+    background-position: 800;
 }
 
 #edovo {
@@ -73,7 +73,7 @@
 #lowPoly {
     background-image: url(lowpoly/coverimg.png);
     background-size: cover;
-    background-position: 900;
+    background-position: 1400;
 }
 
 #projectED {
@@ -97,7 +97,7 @@
 #digitalArtist {
     background-image: url(digitalartist/coverimg.png);
     background-size: cover;
-    background-position: 850;
+    background-position: 1350;
 }
 
 #growing {
