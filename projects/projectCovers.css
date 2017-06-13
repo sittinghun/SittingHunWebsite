@@ -73,7 +73,7 @@
 #lowPoly {
     background-image: url(lowpoly/coverimg.png);
     background-size: cover;
-    background-position: 1400;
+    background-position: 1280;
 }
 
 #projectED {
@@ -97,11 +97,11 @@
 #digitalArtist {
     background-image: url(digitalartist/coverimg.png);
     background-size: cover;
-    background-position: 1350;
+    background-position: 1300;
 }
 
 #growing {
     background-image: url(growing/coverimg.png);
     background-size: cover;
-    background-position: 1800;
+    background-position: 1650;
 }

@@ -122,7 +122,7 @@ p {
 
 .container {
     position: relative;
-    left: 5;
+    left: 15;
     width: 1000;
     margin: auto;
     min-height: 100%;
@@ -132,12 +132,12 @@ p {
     background-color: #e6e6e6;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0 15px #e6e6e6;
+    box-shadow: 0 0 40px #cccccc;
 }
 
 .box:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px #e6e6e6;
+    box-shadow: 0 0 40px #cccccc;
 }
 
 .projectTitle {
@@ -172,7 +172,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
     .container {
         width: 400px;
     }

@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
     $('.container').nested({
-        gutter: 10,
+        gutter: 30,
         minColumn: 1,
-        minWidth: 190,
+        minWidth: 170,
     });
 
     $('.Wrap').scroll(function (scrollCount) {
@@ -37,7 +37,7 @@ $(document).ready(function () {
 
     function highlightStop() {
         $('.box').mouseleave(function () {
-            $(this).css('box-shadow', '0 0 15px #f2f2f2');
+            $(this).css('box-shadow', '0 0 40px #cccccc');
             $(this).children().css({
                 'background-color': '#ffffff' /*,'box-shadow':'0px 0px 0px 2px #e6e6e6 inset'*/
             });
