@@ -29,11 +29,7 @@ p {
     border-bottom: 1px solid;
     width: 220px;
     margin: 30px auto;
-    display: block
-}
-
-#line_light {
-    border-bottom: 1px solid #bfbfbf;
+    display: block;
 }
 
 
@@ -237,6 +233,7 @@ p {
 .story p {
     text-align: justify;
 }
+
 
 /*404 Page*/
 
